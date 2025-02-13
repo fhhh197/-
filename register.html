@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌱 Реєстрація на посадки</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="register.html">Реєстрація</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Заповніть форму</h2>
+            <form id="registerForm">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required placeholder="Ваше ім'я">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Ваш Email">
+                
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Ваш телефон">
+                
+                <button type="submit">Зареєструватися</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
